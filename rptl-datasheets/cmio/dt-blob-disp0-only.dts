@@ -1793,12 +1793,10 @@
 
          pin_defines {
             pin_define@HDMI_CONTROL_ATTACHED {
-               type = "external";
-               number = <0>;
+               type = "absent";
             };
             pin_define@EMMC_ENABLE {
-               type = "external";
-               number = <1>;
+               type = "absent";
             };
             pin_define@NUM_CAMERAS {
                type = "internal";
@@ -1839,7 +1837,12 @@
                type = "absent";
             };
             pin_define@SIO_1V8_SEL {
-               type = "absent";
+               type = "external";
+               number = <4>;
+            };
+            pin_define@SD_PWR_ON {
+               type = "external";
+               number = <6>;
             };
             pin_define@PWML {
                type = "absent";
