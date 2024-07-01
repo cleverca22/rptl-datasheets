@@ -1,1 +1,1 @@
-aws s3 sync s3://rptl-datasheets rptl-datasheets
+aws s3 sync --no-sign-request s3://rptl-datasheets rptl-datasheets
